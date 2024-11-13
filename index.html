@@ -1,25 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>HTML + CSS</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-</html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>About Xavier Huang</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 <body>
-  <div class="landing">
-    <h1>Welcome to my website! :3</h1>
-    <h2>I'm Xavier Huang!</h2>
-    <p>I am a student at WCI</p>
-  </div>
-</body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#swimming">Swimming</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-<div class="booyah">
-  <p>
-    I like to swim competitively and here is my
-    <a href="https://rowswimming.ca/">swim club!</a>
-  </p>
-  <img src="bfd1015d0250bac52f613c76c278844b.jpeg" />
-</div>
+  <!-- About Section -->
+  <section id="about" class="landing">
+    <h1>Welcome to My Website! :3</h1>
+    <h2>I'm Xavier Huang!</h2>
+    <p>
+      I am a student at WCI, and I like learning new things and taking on challenges. 
+      This website is a way for me to share about myself and practice my web development skills.
+    </p>
+  </section>
+
+  <!-- Swimming Section -->
+  <section id="swimming" class="booyah">
+    <p>
+      Outside of academics, I swim competitively and strive to achieve my best in the pool. 
+      Here’s my <a href="https://rowswimming.ca/" target="_blank" >swim club</a> if you’d like 
+      to learn more about my team!
+    </p>
+    <img src="bfd1015d0250bac52f613c76c278844b.jpeg"/>
+  </section>
+
+  <!-- Contact Section -->
+  <footer id="contact" class="footer">
+    <p>
+      Connect with me on social media or through email: 
+      <a href="mailto:huanx6473@wrdsb.ca" target="_blank" rel="noopener noreferrer >huanx6473@wrdsb.ca</a>
+    </p>
+  </footer>
+</body>
+</html>
